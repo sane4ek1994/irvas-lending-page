@@ -10,7 +10,6 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
         tabs.forEach(item => {
             item.classList.remove(activeClass);
         });
-
     }
 
     function showTabContent(i = 0) {
@@ -34,7 +33,6 @@ const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
                 });
         }
     });
-    
 }
 
 export default tabs;
