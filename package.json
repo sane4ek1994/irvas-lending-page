@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "jquery": "^3.6.0",
+    "jshint": "^2.13.4",
     "slick-carousel": "^1.8.1"
   }
 }
